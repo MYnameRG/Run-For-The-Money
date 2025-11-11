@@ -1,8 +1,10 @@
 🏃‍♂️ Run for the Money:
+
 A console-based adventure game written in C.
 Developed by Rohit Gupta
 
 🎮 Overview:
+
 Run for the Money is a simple terminal-based game where you control a player (*) to collect money ($) inside a bordered grid.
 Your goal is to move around, grab as many $ symbols as possible, and earn a high score — without hitting the walls!
 
