@@ -67,14 +67,17 @@ If player touches a $, increment score and respawn new $.
 🛠️ Setup & Run Instructions:
 
 **Requirements**
+
 1. A C compiler (e.g., GCC or Turbo C)
 2. conio.h compatible environment (Windows or DOSBox)
 3. Terminal/console window
 
 **Compile**
+
 gcc run_for_money.c -o run_for_money
 
 **Run**
+
 ./run_for_money
 
 (If you’re using Turbo C or DOSBox, simply compile and run inside the IDE.)
