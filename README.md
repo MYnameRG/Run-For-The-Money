@@ -28,9 +28,10 @@ The game demonstrates:
 🧠 How It Works:
 
 The game uses a 2D array (char a[ROWS][COLS]) to represent the console screen.
-1. \# represents the border
-2. \* is the player character
-3. $ represents money to collect
+1. \# represents the border.
+2. \* is the player character.
+3. $ represents money to collect.
+
 When you move the player and reach a $, your score increases by 5 points.
 The fast_output() and slow_output() functions handle screen rendering with different speeds.
 
