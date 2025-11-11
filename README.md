@@ -9,6 +9,7 @@ Run for the Money is a simple terminal-based game where you control a player (*)
 Your goal is to move around, grab as many $ symbols as possible, and earn a high score — without hitting the walls!
 
 The game demonstrates:
+
 1. Console graphics rendering using 2D arrays
 2. Player movement control
 3. Randomized money (fruit) spawning
@@ -16,6 +17,7 @@ The game demonstrates:
 5. Delay-based animation
 
 ⚙️ Features:
+
 ✅ Dynamic game grid (80x16)
 ✅ Player movement (W, A, S, D)
 ✅ Randomized coin (money) placement
@@ -24,14 +26,17 @@ The game demonstrates:
 ✅ Delay-based smooth rendering
 
 🧠 How It Works:
+
 The game uses a 2D array (char a[ROWS][COLS]) to represent the console screen.
-1. # represents the border
+1. \# represents the border
 2. * is the player character
 3. $ represents money to collect
+
 When you move the player and reach a $, your score increases by 5 points.
 The fast_output() and slow_output() functions handle screen rendering with different speeds.
 
 ⌨️ Controls:
+
 Key	Action
 W	Move Up
 A	Move Left
@@ -40,6 +45,7 @@ D	Move Right
 Ctrl + C	Exit Game
 
 🧩 Game Logic Flow:
+
 1. Initialize Grid:
 Fills the grid with blank spaces.
 
@@ -72,4 +78,3 @@ gcc run_for_money.c -o run_for_money
 ./run_for_money
 
 (If you’re using Turbo C or DOSBox, simply compile and run inside the IDE.)
-
